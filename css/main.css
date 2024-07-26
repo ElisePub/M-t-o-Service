@@ -1,0 +1,71 @@
+.content {
+    width: 70%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-content{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.error-text {
+    color: #b55151;
+    font-weight: 600;
+    float: right;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+
+.result-table {
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.result-table thead tr {
+    color: #ffffff;
+    text-align: left;
+}
+
+.result-table th,
+.result-table td {
+    padding: 12px 15px;
+}
+
+.active {
+    background-color: rgb(239, 239, 239);
+}
+
+.row{
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.square-card {
+    width: 18%;
+}
+
+.square-card {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
